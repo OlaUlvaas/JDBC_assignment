@@ -5,7 +5,9 @@ import java.util.Objects;
 public class City {
     private int id;
     private String name;
-    private int code;
+    private int countryCode;
+    private String district;
+    private int population;
 
     public City() {
     }
